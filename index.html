@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report on Paper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .paper {
+            background-color: #fff;
+            width: 58mm; /* Adjust to your desired width */
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .report-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .report-section {
+            margin-bottom: 20px;
+        }
+
+        .report-section-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .report-item {
+            margin-left: 0;
+        }
+
+        .qr-code {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .large-qr-code {
+            width: 100px; /* Adjust the size of the QR code as needed */
+        }
+
+        .product-line {
+            font-weight: bold;
+            font-size: 13px;
+        }
+
+        .about-company {
+            font-size: 13px;
+            font-weight: monospace;
+        }
+
+        .customer-info {
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .product-details {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .total-amount {
+            font-weight: bold;
+            font-size: 14px;
+            text-align: right;
+        }
+
+        .report-title-head {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+            /* width: 100px; */
+        }
+
+        .customer-info-title {
+            font-size: 13px;
+            font-weight: monospace;
+            display: inline-block;
+            /* width: 100px; */
+        }
+
+        .customer-info-value {
+            font-size: 13px;
+            display: inline-block;
+        }
+
+        .product-name {
+            word-wrap: break-word;
+            width: 60%; /* Adjust the width as needed */
+            font-size: 15px;
+            font-weight: bold;
+
+        }
+
+        .product-price {
+            font-size: 13px;
+            text-align: right;
+            font-weight: bold;
+
+        }
+
+        .product-quantity {
+            font-size: 13px;
+            text-align: right;
+            /* font-weight: bold;    */
+            
+        }
+
+        .product-amount {
+            font-size: 13px;
+            text-align: right;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="paper">
+        <div class="report-title-head">
+            <!-- Add your QR code here using an <img> tag -->
+            <img src="logoall.png" alt="logo" class="large-qr-code">
+        </div>
+        <!-- <div class="report-title-head">"BIZDA-BOR"</div> -->
+        
+        <div class="report-section">
+            <div class="about-company">Manzil: улица Шевченко, дом 2-А</div>
+            <div class="about-company">Telefon: 200200200</div>
+            <div class="about-company">INN: -инн</div>
+            <div class="about-company">Sana: 07.01.2020</div>
+            <div class="about-company">Vaqt: 16:01:20</div>
+        </div>
+        
+        <div class="report-section">
+            <div class="product-line">--------------------------------------------------</div>
+            <div class="product-details">
+                <div class="product-name">fasdfsadfsadgdsagasdgsadg</div>
+                <div class="product-quantity">4 кг.</div>
+                <div class="product-amount">587,899 сум</div>
+            </div>
+            <br>
+            <div class="product-details">
+                <div class="product-name">Яйца</div>
+                <div class="product-quantity">10 г.</div>
+                <div class="product-amount">7,500 сум</div>
+            </div>
+            <br>
+            <div class="product-details">
+                <div class="product-name">Хлеб</div>
+                <div class="product-quantity">1</div>
+                <div class="product-amount">4,500 сум</div>
+            </div>
+            <br>
+            <div class="total-amount">Jami summa: 600,899 сум</div>
+        </div>
+        <div class="product-line">--------------------------------------------------</div>
+
+        <div class="customer-info">Mijoz ma'lumotlari:</div>
+        <div class="customer-info-title">F.I.SH: Ziyodullo Aliyev</div>
+        <div class="customer-info-title">Raqami: +998 99 999 9999</div>
+        <div class="customer-info-title">Manzil: Toshkent shahar, Yunusobod tumani</div>
+
+        <div class="qr-code">
+            <!-- Add your QR code here using an <img> tag -->
+            <img src="qrcode.png" alt="QR Code" class="large-qr-code">
+        </div>
+    </div>
+</body>
+</html>
